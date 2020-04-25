@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container{
+  width: :100%;
+  height: 100%;
+  background-color: #42455a;
+}
+.menu ul{
+  display: inline-flex;
+  margin: 50px;
+}
+.menu ul li{
+  list-style: none;
+  margin: 0 20px;
+  color: #b2b1b1;
+  cursor: pointer;
+}
+.logo img{
+  width: 50px;
+  margin-top: -7px;
+  margin-right: 48px;
+}
+.Activate{
+  color: #FF0000 !important;
+}
+.SignUp_Btn{
+  top:40px;
+  right: 80px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#42455a,#42455a),
+  radial-gradient(circle at top Left,#b2b1b1,#FF0000);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+}
+.SignUp_Btn span{
+  display: block;
+  padding: 8px 22px;
+}
+.banner{
+  width: 80%;
+  height: 70%;
+  top:25%;
+  left: 130px;
+  position: absolute;
+  color: #fff;
+}
+a{
+  color:#FF0000;
+}
+.app_temp{
+  width: 50%;
+  float: left;
+}
+.app_temp h1{
+  font-size: 43px;
+  width: 640px;
+  position: relative;
+  margin-left: 40px;
+}
+.app_temp p{
+  font-size: 15px;
+  width: 640px;
+  position: relative;
+  margin: 30px 0  30px 40px;
+  line-height: 25px;
+  color: #919191;
+}
+.ImgIcon{
+  width:90%;
+  margin-top: -20px;
+  padding-left: 50px;
+}
